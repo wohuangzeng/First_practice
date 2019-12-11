@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+html{   
+    width: 100%;   
+    height: 100%;   
+}
+
+   body,div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size:18px;
+    color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.button-outline:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.35);
+}
+
+.container{
+   position: absolute;   
+    
+    left:20%;   
+   /* margin: -150px 0 0 -150px;*/   
+    width: 300px;   
+    height: 150px;
+}
+.login{
+	margin: 30px;
+    padding: 0px;
+}
+
+p{
+   font-size: 18px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-put;
+          transition-timing-function: ease-in-put;
+  font-weight: 200;
+    text-shadow: 0 1px 4px rgba(0,0,0,.2);/*为字体添加阴影*/
+}
+.login_btn input{
+	width:50%;
+	height:100%;
+	margin:10px;
+	padding:0.3em;/*内边距为0.3em*/
+	border:#1263be solid 1px;
+	background:#1b85fd;
+	color:#FFF;/*白色字体*/
+	font-size:17px;
+	font-weight:bolder;
+}
+.mg{
+	width:50%;
+	height:100%;
+	margin-top:10px;
+	}
+	.login_btn{
+	width:200px;
+	margin-top:20px;
+	margin-left:20px;
+}/*边框边角有20px的弧度*/
+.connect{
+	 font-size: 14px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-put;
+          transition-timing-function: ease-in-put;
+  font-weight: 200;
+    text-shadow: 0 1px 4px rgba(0,0,0,.2);/
+}
+input{
+	  width:200px;   
+    height: 10px;      
+    outline: none;   
+    padding: 5px;
+	margin:5px; 
+	border-radius: 15px; /*边框边角有20px的弧度*/  
+}

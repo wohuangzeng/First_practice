@@ -1,0 +1,289 @@
+*{padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+             }
+body{
+	width: 860px;
+	padding: 0px;
+	margin: 0px auto;
+	font-family: "微软雅黑";
+    font-size: 16px;
+    border: 10px #fff solid;
+   
+}
+#fan{
+	text-align: center;
+	padding: 0px 500px;
+}
+.a{ 
+	
+	width: 860px;
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
+	background: #ffddaa url(img/49.jpg) no-repeat }
+	.a1{
+		opacity: 0.8;
+		float: left;
+		font-size: 18px;
+		line-height: 70px;
+		text-align: center;
+		width: 720px;
+		height: 69px;
+		background: url(img/QQ图片20170520003951.png) repeat-x ;
+	}
+	.a1 ul li{
+		margin: 0px 5px 0px 0px;
+		float: left;
+		
+	}
+	.a1 ul li a{
+		margin: 0px;
+		padding: 0px;
+		font-size: 18px;
+		line-height: 70px;
+		color: #000000;
+	}
+	.a1 ul li:hover a{
+		margin: 0px;
+		padding: 0px;
+		font-size: 18px;
+		line-height: 70px;
+		color:aqua;
+	}
+	.a2{
+		opacity: 0.5;
+		width: 140px;
+		height: 69px;
+		padding: 0px;
+		font-size: 18px;
+		line-height: 35px;
+		float: left;
+		text-align: center;
+		background:url(img/QQ图片20170520004738.png) repeat-x;
+	}
+	#a1{
+		color: #000000;
+	}
+	#a2{
+		color: #000000;
+	}
+	#a3{
+		color: #000000;
+	}
+	.a21{
+		display: none;
+		width: 120px;
+		height: 110px;
+		background:url(img/QQ图片20170520100746.png) ; 
+	}
+	.a2:hover .a21{
+		display: block;
+		position: static;
+		
+	}
+	#a3,#a1,#a2{
+		font-size: 18px;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+	
+	.a21 a{
+		color:#000000;
+		font-size: 18px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.a21 :hover a{
+		text-decoration: underline;
+		color: #DC143C;
+		font-size: 18px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.a3{
+		float: left;
+	}
+	.a3 li a{
+		color: #FFFFFF;
+	}
+	.a3 li a:hover{
+		color: #00BFFF;
+	}
+	.a3 li{
+		opacity: 0.5;
+		clear: both;
+		font-size: 24px;
+		color:black;
+		background: url(img/QQ图片20170520003951.png) ;
+		width: 180px;
+		height: 60px;
+		line-height: 60px;
+	}
+	.a4 {
+		margin:40px 40px 10px 140px;
+		opacity: 0.6;
+		float: left;
+		width: 400px;
+		height: 240px;
+		border: 1px solid #A52A2A;
+	}
+	.a4 img{
+		opacity: 1;
+		width: 400px;
+		height: 240px;
+	}
+	.b1,.c1,.d1{
+		font-size: 32px;
+		color: black;
+		margin: 0px 20px 0px 0px;
+	}
+	.b2,.c2,.d2{
+		font-size: 12px;
+		color: darkgray;
+	}
+	a{
+		font-size: 28px;
+		color: burlywood;
+		text-decoration: none;
+		margin: 30px;
+	}
+	a:visited{
+		
+		font-size: 28px;
+		color: chocolate;
+		text-decoration: none;
+		margin: 30px;
+	}
+	a:active{
+		font-size: 28px;
+		color:chartreuse;
+		text-decoration: none;
+		margin: 30px;
+	}
+	a:hover{
+		font-size: 28px;
+		color:dodgerblue;
+		text-decoration: none;
+		margin: 30px;
+	}
+.e{
+	width: 1200px;
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
+	background:antiquewhite;
+	position: relative;
+	left: -180px;
+	top: 10px;
+}
+#e2,#e3,#e4{
+	float: left;
+	width: 180px;
+	height: 300px;
+	border-right:1px solid gainsboro;
+	margin: 4px 4px;
+	padding: 0px 0px 2px 10px;
+	color: gray;
+}
+#e1{
+	float: left;
+	width: 320px;
+	height: 300px;
+	border-right:1px solid gainsboro;
+	margin: 4px 4px;
+	padding: 0px 0px 2px 10px;
+	color: gray;
+}
+#e5{
+	float: left;
+	width: 240px;
+	height: 300px;
+	border-right:1px solid gainsboro;
+	margin: 4px 4px;
+	padding: 0px 0px 2px 10px;
+	color: gray;
+}
+.e13{
+	font-size: 28px;
+	padding: 20px 0px 0px 40px;
+}
+.e14{
+	font-size: 28px;
+	color: dodgerblue;
+}
+.e15{
+	margin: 0px 6px 0px 0px;
+}
+.e16{
+	margin: 0px 0px 0px 6px;
+}
+.e17{
+	font-size: 28px;
+	color:chocolate;
+}
+.e11{
+	background: url(img/QQ图片20170520183059.png) 0px 40px no-repeat;
+	padding: 40px 0px 20px 70px;
+}
+.e12{
+	background: url(img/QQ图片20170520183109.png) 0px 20px no-repeat;
+	padding: 20px 0px 20px 80px;
+}
+.e21{
+	margin: 20px 0px 0px 0px;
+	display: block;
+	float: left;
+}
+.e22{
+	margin: 20px 0px 0px 0px;
+	display: block;
+}
+.e51,.e52{
+	font-size: 18px;
+	text-align: center;
+	margin: 16px 0px 10px 0px;
+}
+.e53{
+	padding: 0px 0px 0px 20px;
+}
+.e a{
+	font-size: 14px;	
+	margin: 0px;
+	padding: 0px;
+}
+.e2 p  :hover span a,.e3 p  :hover span a,.e4 p  :hover span a{
+	font-size: 14px;
+	color: cornflowerblue;
+	margin: 0px;
+	padding: 0px;
+}
+#ee{
+	width: 1200px;
+	height: 140px;
+	
+}
+.ee1{
+	text-align: center;
+	margin: -20px 0px 0px 60px;
+	padding: 80px 0px 0px 0px;
+}
+.ee2{
+	background:url(img/img1/QQ图片20170519200513.png) 430px  -6px no-repeat;
+	height: 40px;
+	margin: 20px 0px 0px 0px ;
+}
+.ee3 ul li{
+	float: left;
+	margin: 20px 11px 0px 2px;
+	width: 120px;
+	height: 60px;
+}
+.ee3 ul li img{
+        	width: 120px;
+        	height: 60px;
+}
+
+
+/*标题的浮动*/

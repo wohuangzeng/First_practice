@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>图片的自动切换效果</title>
+<style type="text/css">
+body,img{ margin:0; padding:0;}
+#obj{ margin: 40px 400px;}/*为什么在这里设置auto属性值不起作用呢？*/
+</style>
+</head>
+
+<body>
+<script language =javascript >
+var curIndex=0;
+//时间间隔(单位毫秒)，每秒钟显示一张，数组共有5张图片放在Photos文件夹下。
+var timeInterval=3000;
+var arr=new Array();
+arr[0]="photos/1.jpg";
+arr[1]="photos/2.jpg";
+arr[2]="photos/3.jpg";
+arr[3]="photos/4.jpg";
+arr[4]="photos/5.jpg";
+setInterval(changeImg,timeInterval);
+function changeImg()
+{
+    var obj=document.getElementById("obj");
+    if (curIndex==arr.length-1) 
+    {
+        curIndex=0;
+    }
+    else
+    {
+        curIndex+=1;
+    }
+    obj.src=arr[curIndex];
+}
+</script>
+<img id=obj src="photos/1.jpg" width=600px; height=350px;border =0;>
+</body>
+</html>
